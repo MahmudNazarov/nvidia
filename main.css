@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 30px;
+    background-color: #000000;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.header__link{
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: none;
+    transition: 0.1ms ease-in-out;
+}
+.header__link:hover{
+    background-color: white;
+    color: black;
+}
+input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.header__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    background-color: #FFFFFF;
+    padding: 14px;
+}
+.hero{
+    padding: 30px 0;
+    background-image: url("./images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero__textbox{
+    width: 277px;
+}
+.hero__title{
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 88px;
+}
+.none{
+    margin-top: 150px;
+    color: black;
+    text-align: center;
+}
+.nevbord{
+    
+}
+.hero__btn{
+    width: 109px;
+    background-color: #76B900;
+    padding: 18px 0;
+    color: #000000;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    border: none;
+    transition: 0.1ms ease-in-out;
+}
+.hero__btn:hover{
+    background-color: aqua;
+}
+.gaming{
+    padding-top: 41px;
+}
+.gaming__title{
+    color: #000000;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.gaming__box{
+    width: 290px;
+    box-shadow: 0px 17px 27px -4px rgba(0, 0, 0, 0.25);
+    background-color: #ffffff;
+}
+.gaming__box-texbox{
+    padding: 30px;
+    text-align: center;
+}
+.gaming__text{
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 37px;
+    margin-top: 20px;
+}
+.gaming__link{
+    color: rgb(0, 0, 0);
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-decoration: none;
+}
+.gaming__cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bob{
+    width: 290px;
+    height: 165px;
+}
+.nani{
+    width: 604px;
+    height: 325px;
+}
+.mama{
+    display: flex;
+    margin-top: 50px;
+}
+.mamaaaaa{
+    font-size: 60px;
+    width: 516px;
+    color: greenyellow;
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+}
+.and{
+    width: 300px;
+    height: 44px;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.lol{
+    background-color: #76B900;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    transition: 0.1ms ease-in-out;
+}
+.lol:hover{
+    background-color: aqua;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+}
+.mamaaa{
+    margin-top: 55px;
+}
+.color{
+    width: 100px;
+}
+.poco{
+    font-size: 25px;
+}
